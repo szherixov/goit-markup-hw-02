@@ -1,0 +1,207 @@
+:root {
+  --normal-color: #212121;
+  --description-color: #757575;
+  --active-color: #2196f3;
+  --background-color: #2f303a;
+  --contact-color: #999999;
+  --footer-text-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: "Roboto";
+  color: var(--normal-color);
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.footer {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--footer-text-color);
+  position: absolute;
+  background: var(--background-color);
+  left: 0px;
+  right: 0px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* <!--------------------------------------- HEADER --------------------------------------- --> */
+
+.web {
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+}
+
+.studio {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  margin-right: 70px;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.header-container {
+  align-items: center;
+}
+
+.nav {
+  align-items: center;
+}
+
+.menu {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.menu-link {
+  color: #212121;
+  list-style-type: none;
+  display: inline;
+}
+
+.menu-link:hover {
+  color: #2196f3;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.menu-contacts-item {
+  color: #757575;
+  display: inline;
+  margin-left: 50px;
+}
+
+.menu-mail:hover,
+.menu-mail:focus {
+  color: #2196f3;
+}
+
+.menu-tel:hover,
+.menu-tel:focus {
+  color: #2196f3;
+}
+
+/* <!--------------------------------------- END HEADER --------------------------------------- --> */
+
+/* <!--------------------------------------- HERO --------------------------------------- --> */
+
+.first-heading-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.first-heading-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.info-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.info-suptitle {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--description-color);
+}
+
+.second-heading-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+/* .second-heading-gallery {
+  
+} */
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.team-speciality {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--description-color);
+}
+
+/* <!--------------------------------------- END HERO --------------------------------------- --> */
+
+/* <!--------------------------------------- FOOTER --------------------------------------- --> */
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  margin: 0px 70px 20px 215px;
+}
+
+.footer-contacts {
+  margin: 0px 70px 20px 215px;
+}
+
+.footer-contacts-item {
+  color: #757575;
+  display: block;
+}
+
+/* <!--------------------------------------- END FOOTER --------------------------------------- --> */ ;
